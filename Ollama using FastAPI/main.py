@@ -1,5 +1,9 @@
 from fastapi import FastAPI
 import ollama
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = FastAPI()
 
